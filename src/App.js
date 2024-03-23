@@ -113,12 +113,12 @@ function App() {
             <div className='ml-24 my-auto'>
                <img className='w-28 h-28' src={logo} alt="logo" />
             </div>
-            <div className='flex flex-row text-4xl gap-x-8 items-center just-another'>
-               <h3>TELEGRAM</h3>
-               <h3>TWITTER X</h3>
-               <h3>SOLCAN</h3>
-               <h3>DEXSCREEN</h3>
-               <h3>RAYDIUM</h3>
+            <div className='flex flex-row text-4xl items-center just-another'>
+               <h3 className='btn-header'>TELEGRAM</h3>
+               <h3 className='btn-header'>TWITTER X</h3>
+               <h3 className='btn-header'>SOLCAN</h3>
+               <h3 className='btn-header'>DEXSCREEN</h3>
+               <h3 className='btn-header'>RAYDIUM</h3>
             </div>
             <div className='mr-24 my-auto'>
                <img className='w-28 h-28' src={logoRev} alt="logo" />

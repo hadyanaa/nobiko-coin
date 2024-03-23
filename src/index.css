@@ -130,3 +130,18 @@ img {vertical-align: middle;}
   color: #0094FF;
   cursor: pointer;
 }
+
+.btn-header {
+  background-color: #C6E3FF;
+  border: none;
+  color: black;
+  text-align: center;
+  transition: 0.3s;
+  padding: 16px 32px;
+}
+
+.btn-header:hover {
+  background-color: #45A1D6;
+  color: #fff;
+  cursor: pointer;
+}
