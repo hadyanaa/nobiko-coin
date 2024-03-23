@@ -154,8 +154,8 @@ function App() {
          </div>
          {/* copy tag */}
          <div className='flex bg-secondary items-center justify-center py-8'>
-            <div className='flex md:flex-row sm:flex-col w-[75%] mx-auto justify-center items-center p-4 gap-x-4 bg-heading'>
-               <div ref={textRef} className="inter-heading font-bold sm:text-xs md:text-sm lg:text-lg">{copied ? 'Copied!' : 'CA:' + CA}</div>
+            <div className='flex md:flex-row xs:flex-col w-[75%] mx-auto justify-center items-center p-4 gap-x-4 bg-heading'>
+               <div ref={textRef} className="inter-heading font-bold xs:font-normal xs:text-xs md:text-sm lg:text-lg">{copied ? 'Copied!' : 'CA:' + CA}</div>
                {!copied && <button className='w-6 rounded' onClick={handleCopyClick}>
                   <img src={copy} alt="copy" />
                </button>}
@@ -186,7 +186,7 @@ function App() {
                If you love cats and clothes, you should join the NOBIKO COIN Community! It is a group where you can share your cat fashion with other cat lovers. You can post pictures, get tips, and find patterns. You can also join events, contests, and giveaways. The NOBIKO COIN Community is a family of cat lovers who have fun and learn from each other. Join the NOBIKO COIN Community today and unleash your cat’s inner style!
                </p>
                <div className='w-full bg-heading'>
-                  <div className='flex flex-row sm:text-xs md:text-base lg:text-lg xl:text-xl font-semibold items-center justify-center inter-heading'>
+                  <div className='flex sm:flex-row xs:flex-col xs:text-xs md:text-base lg:text-lg xl:text-xl font-semibold xs:font-light md:font-normal items-center justify-center inter-heading'>
                      <h3 className='btn-community'>TELEGRAM</h3>
                      <h3 className='btn-community'>TWITTER X</h3>
                      <h3 className='btn-community'>SOLCAN</h3>
