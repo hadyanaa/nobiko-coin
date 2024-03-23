@@ -66,68 +66,68 @@ function App() {
          <div className='flex gap-x-8 w-full bg-heading items-center py-6 my-auto'>
             <div className='marquee'>
                <div className='marquee-inner inter-heading font-bold'>
-                  <span className='flex flex-row gap-x-6'>
-                     <h4>NOBIKO COIN</h4>
+                  <span className='flex flex-row gap-x-6 sm:text-xs md:text-sm lg:text-base xl:text-lg'>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
                   </span>
-                  <span className='flex flex-row gap-x-6'>
-                     <h4>NOBIKO COIN</h4>
+                  <span className='flex flex-row gap-x-6 sm:text-xs md:text-sm lg:text-base xl:text-lg'>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
+                     <p>NOBIKO COIN</p>
                      <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
                   </span>
                </div>
             </div>
          </div>
-         <div className='flex w-full h-36 bg-secondary justify-between'>
-            <div className='ml-24 my-auto'>
-               <img className='w-28 h-28' src={logo} alt="logo" />
+         <div className='flex w-full sm:h-24 md:h-28 lg:h-36 bg-secondary justify-between'>
+            <div className='sm:ml-8 md:ml-12 lg:ml-16 xl:ml-24 my-auto'>
+               <img className='sm:w-12 md:w-16 lg:w-24 xl:w-28 h-auto' src={logo} alt="logo" />
             </div>
-            <div className='flex flex-row text-2xl items-center just-another'>
+            <div className='flex flex-row text-2xl lg:text-3xl md:text-lg sm:text-base items-center just-another'>
                <h3 className='btn-header'>TELEGRAM</h3>
                <h3 className='btn-header'>TWITTER X</h3>
                <h3 className='btn-header'>SOLCAN</h3>
                <h3 className='btn-header'>DEXSCREEN</h3>
                <h3 className='btn-header'>RAYDIUM</h3>
             </div>
-            <div className='mr-24 my-auto'>
-               <img className='w-28 h-28' src={logoRev} alt="logo" />
+            <div className='sm:mr-8 md:mr-12 lg:mr-16 xl:mr-24 my-auto'>
+               <img className='sm:w-12 md:w-16 lg:w-24 xl:w-28 h-auto' src={logoRev} alt="logo" />
             </div>
          </div>
          {/* section welcome */}
          <div className='bg-primary py-8'>
             <div className='flex flex-col w-[75%] mx-auto justify-center items-center gap-y-8'>
-               <h1 className='inter-heading text-4xl font-black text-outline'>WHAT IS NOBIKO COIN</h1>
+               <h1 className='inter-heading text-4xl font-black text-center text-outline'>WHAT IS NOBIKO COIN</h1>
                <video className='w-full h-auto' width="640" height="360" autoPlay loop muted>
                   <source src={welcome} type="video/mp4" />
                   Your browser does not support the video tag.
@@ -141,7 +141,7 @@ function App() {
          {/* section season */}
          <div className='bg-secondary py-8'>
             <div className='flex flex-col w-[75%] mx-auto justify-center items-center gap-y-8'>
-               <h1 className='inter-heading text-4xl font-black text-outline'>THIS TIME IS NOBIKO COIN SEASON</h1>
+               <h1 className='inter-heading text-4xl font-black text-center text-outline'>THIS TIME IS NOBIKO COIN SEASON</h1>
                <p className='just-another -mt-4 text-3xl text-center'>
                This time is NOBIKO COIN season, a time to celebrate the creativity and uniqueness of cat owners and their furry friends. NOBIKO COIN is not just a trend, but a way of life for some people who love to dress up their cats with clothes or costumes. Whether it is everyday clothes, accessories, hats, glasses, or even traditional outfits, NOBIKO COIN can show the personality, style, or humor of the cat owners and the cats themselves. NOBIKO COIN can also be a fun way to join various events, such as Halloween, Christmas, Easter, or birthday parties. NOBIKO COIN can bring joy, happiness, and cuteness to many people who see them.
                </p>
@@ -164,7 +164,7 @@ function App() {
          {/* tokenomics */}
          <div className='bg-primary py-8'>
             <div className='flex flex-col w-[75%] mx-auto justify-center items-center gap-y-8'>
-               <h1 className='inter-heading text-4xl font-black text-outline'>TOKENOMICS NOBIKO COIN</h1>
+               <h1 className='inter-heading text-4xl text-center font-black text-outline'>TOKENOMICS NOBIKO COIN</h1>
                <h4 className='inter-heading font-extrabold text-xl text-center'>The NOBIKO COIN smart contract has 0 tax on all buys and sells. The total supply of $SOL is 1,000,000,000. Trust in $SOL.</h4>
                <div className='btn inter-heading font-black rounded-lg py-4 px-6'>
                   BUY NOBIKO COIN
@@ -181,12 +181,12 @@ function App() {
          {/* join community */}
          <div className='bg-secondary py-8'>
             <div className='flex flex-col w-[75%] mx-auto justify-center items-center gap-y-8'>
-               <h1 className='inter-heading text-4xl font-black text-outline'>JOIN WITH NOBIKO COIN COMMUNITY</h1>
+               <h1 className='inter-heading text-4xl text-center font-black text-outline'>JOIN WITH NOBIKO COIN COMMUNITY</h1>
                <p className='just-another -mt-4 text-3xl text-center'>
                If you love cats and clothes, you should join the NOBIKO COIN Community! It is a group where you can share your cat fashion with other cat lovers. You can post pictures, get tips, and find patterns. You can also join events, contests, and giveaways. The NOBIKO COIN Community is a family of cat lovers who have fun and learn from each other. Join the NOBIKO COIN Community today and unleash your cat’s inner style!
                </p>
                <div className='w-full bg-heading'>
-                  <div className='flex flex-row text-lg font-semibold items-center justify-center inter-heading'>
+                  <div className='flex flex-row sm:text-xs md:text-base lg:text-lg xl:text-xl font-semibold items-center justify-center inter-heading'>
                      <h3 className='btn-community'>TELEGRAM</h3>
                      <h3 className='btn-community'>TWITTER X</h3>
                      <h3 className='btn-community'>SOLCAN</h3>
@@ -274,15 +274,15 @@ function App() {
                </div>
             </div>
          </div>
-         <div className='flex w-full h-36 bg-secondary justify-between'>
-            <div className='ml-24 my-auto'>
-               <img className='w-28 h-28' src={logo} alt="logo" />
+         <div className='flex w-full py-4 bg-secondary justify-between'>
+            <div className='sm:ml-8 md:ml-12 lg:ml-16 xl:ml-24 my-auto'>
+               <img className='sm:w-12 md:w-16 lg:w-24 xl:w-28 h-auto' src={logo} alt="logo" />
             </div>
-            <div className='flex flex-row text-4xl gap-x-8 items-center just-another'>
+            <div className='flex flex-row sm:text-xs md:text-base lg:text-lg xl:text-2xl gap-x-8 items-center just-another'>
                Copyright&#169;2024NOBIKO COIN | support@nobikocoin.vip
             </div>
-            <div className='mr-24 my-auto'>
-               <img className='w-28 h-28' src={logoRev} alt="logo" />
+            <div className='sm:mr-8 md:mr-12 lg:mr-16 xl:mr-24 my-auto'>
+               <img className='sm:w-12 md:w-16 lg:w-24 xl:w-28 h-auto' src={logoRev} alt="logo" />
             </div>
          </div>
       </>

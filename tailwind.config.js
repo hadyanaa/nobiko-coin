@@ -10,7 +10,13 @@ module.exports = {
         primary: '#95CAFF',
         secondary: '#C6E3FF',
         button: '#0094FF',
-      }
+      },
+      screens: {
+        'sm': '640px', // Ukuran layar kecil (Mobile)
+        'md': '768px', // Ukuran layar menengah (Tablet)
+        'lg': '1024px', // Ukuran layar besar (Laptop)
+        'xl': '1280px', // Ukuran layar ekstra besar (Desktop)
+      },
     },
   },
   plugins: [
