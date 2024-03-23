@@ -137,7 +137,7 @@ img {vertical-align: middle;}
   color: black;
   text-align: center;
   transition: 0.3s;
-  padding: 16px 32px;
+  padding: 16px 16px;
 }
 
 .btn-header:hover {

@@ -113,7 +113,7 @@ function App() {
             <div className='ml-24 my-auto'>
                <img className='w-28 h-28' src={logo} alt="logo" />
             </div>
-            <div className='flex flex-row text-4xl items-center just-another'>
+            <div className='flex flex-row text-2xl items-center just-another'>
                <h3 className='btn-header'>TELEGRAM</h3>
                <h3 className='btn-header'>TWITTER X</h3>
                <h3 className='btn-header'>SOLCAN</h3>
