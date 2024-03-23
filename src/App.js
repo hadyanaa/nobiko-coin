@@ -155,7 +155,7 @@ function App() {
          {/* copy tag */}
          <div className='flex bg-secondary items-center justify-center py-8'>
             <div className='flex md:flex-row xs:flex-col w-[75%] mx-auto justify-center items-center p-4 gap-x-4 bg-heading'>
-               <div ref={textRef} className="inter-heading font-bold xs:font-normal xs:text-xs md:text-sm lg:text-lg">{copied ? 'Copied!' : 'CA:' + CA}</div>
+               <div ref={textRef} className="inter-heading font-bold xs:font-light xs:text-xs md:text-sm lg:text-lg">{copied ? 'Copied!' : 'CA:' + CA}</div>
                {!copied && <button className='w-6 rounded' onClick={handleCopyClick}>
                   <img src={copy} alt="copy" />
                </button>}
@@ -198,7 +198,7 @@ function App() {
          </div>
          {/* docs */}
          <div className='flex flex-col bg-primary py-8 gap-y-3'>
-            <div className='w-[75%] mx-auto grid grid-cols-4 gap-3'>
+            <div className='w-[75%] mx-auto grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3'>
                <img src={sq1} alt="grid 1" />
                <img src={sq2} alt="grid 2" />
                <img src={sq3} alt="grid 3" />
@@ -208,7 +208,7 @@ function App() {
                <img src={sq7} alt="grid 7" />
                <img src={sq8} alt="grid 8" />
             </div>
-            <div className='w-[75%] mx-auto grid grid-cols-3 gap-3'>
+            <div className='w-[75%] mx-auto grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3'>
                <img src={ln1} alt="grid lenskep 1" />
                <img src={ln2} alt="grid lenskep 2" />
                <img src={ln3} alt="grid lenskep 3" />
@@ -216,7 +216,7 @@ function App() {
                <img src={ln5} alt="grid lenskep 5" />
                <img src={ln6} alt="grid lenskep 6" />  
             </div>
-            <div className='w-[75%] mx-auto grid grid-cols-4 gap-3'>
+            <div className='w-[75%] mx-auto grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3'>
                <img src={pr1} alt="grid portrait 1" />
                <img src={pr2} alt="grid portrait 2" />
                <img src={pr3} alt="grid portrait 3" />
