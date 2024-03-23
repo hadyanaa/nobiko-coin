@@ -31,6 +31,7 @@ import welcome from './assets/videos/welcome.mp4';
 import tokenomics from './assets/videos/tokenomics.mp4';
 // import Carousel from './Carousel';
 import CarouselPage from './ResponsiveCarousel';
+import MarqueeTag from './Marquee';
 
 function App() {
    const textRef = useRef(null);
@@ -64,50 +65,7 @@ function App() {
       <>
          {/* header */}
          <div className='flex gap-x-8 bg-heading items-center py-6 my-auto'>
-            <div className='marquee'>
-               <div className='marquee-inner inter-heading font-bold'>
-                  <span className='flex flex-row gap-x-6 sm:text-xs md:text-sm lg:text-base xl:text-lg'>
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  </span>
-                  <span className='flex flex-row gap-x-6 sm:text-xs md:text-sm lg:text-base xl:text-lg'>
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <p>NOBIKO COIN</p>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  </span>
-               </div>
-            </div>
+            <MarqueeTag />
          </div>
          <div className='flex w-full sm:h-24 md:h-28 lg:h-36 bg-secondary justify-between'>
             <div className='sm:ml-8 md:ml-12 lg:ml-16 xl:ml-24 my-auto'>
@@ -229,59 +187,16 @@ function App() {
          </div>
          {/* footer */}
          <div className='flex gap-x-8 w-full bg-heading items-center py-6 my-auto'>
-            <div className='marquee'>
-               <div className='marquee-inner inter-heading font-bold'>
-                  <span className='flex flex-row gap-x-6'>
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  </span>
-                  <span className='flex flex-row gap-x-6'>
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                     <h4>NOBIKO COIN</h4>
-                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  </span>
-               </div>
-            </div>
+            <MarqueeTag />
          </div>
-         <div className='flex w-full py-4 bg-secondary justify-between'>
-            <div className='sm:ml-8 md:ml-12 lg:ml-16 xl:ml-24 my-auto'>
+         <div className='flex w-full mx-auto py-4 bg-secondary items-center md:justify-between xs:justify-center'>
+            <div className='xs:hidden md:flex md:ml-12 lg:ml-16 xl:ml-24 my-auto'>
                <img className='sm:w-12 md:w-16 lg:w-24 xl:w-28 h-auto' src={logo} alt="logo" />
             </div>
             <div className='flex flex-row sm:text-xs md:text-base lg:text-lg xl:text-2xl gap-x-8 items-center just-another'>
                Copyright&#169;2024NOBIKO COIN | support@nobikocoin.vip
             </div>
-            <div className='sm:mr-8 md:mr-12 lg:mr-16 xl:mr-24 my-auto'>
+            <div className='xs:hidden md:flex md:mr-12 lg:mr-16 xl:mr-24 my-auto'>
                <img className='sm:w-12 md:w-16 lg:w-24 xl:w-28 h-auto' src={logoRev} alt="logo" />
             </div>
          </div>

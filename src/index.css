@@ -26,39 +26,6 @@ body {
     "slnt" 0;
 }
 
-.marquee {
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  background: white;
-  white-space: nowrap;
-  width: 100%;
-}
-
-.marquee-inner {
-  width: 200%;
-  position: absolute;
-  animation: marquee 10s linear infinite;
-  overflow: hidden;
-}
-
-span {
-  float: left;
-  width: 50%;
-  overflow: hidden;
-}
-
-@keyframes marquee {
-  0% {
-    left: 0;
-  }
-  100% {
-    left: -100%;
-  }
-}
-
 .text-outline {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff
