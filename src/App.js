@@ -113,7 +113,7 @@ function App() {
             <div className='sm:ml-8 md:ml-12 lg:ml-16 xl:ml-24 my-auto'>
                <img className='sm:w-12 md:w-16 lg:w-24 xl:w-28 h-auto' src={logo} alt="logo" />
             </div>
-            <div className='flex flex-row text-2xl lg:text-3xl md:text-lg sm:text-base items-center just-another'>
+            <div className='hidden md:flex flex-row text-2xl lg:text-3xl md:text-lg items-center just-another'>
                <h3 className='btn-header'>TELEGRAM</h3>
                <h3 className='btn-header'>TWITTER X</h3>
                <h3 className='btn-header'>SOLCAN</h3>
@@ -154,8 +154,8 @@ function App() {
          </div>
          {/* copy tag */}
          <div className='flex bg-secondary items-center justify-center py-8'>
-            <div className='flex flex-row p-4 gap-x-4 bg-heading'>
-               <div ref={textRef} className="inter-heading font-bold text-lg">{copied ? 'Copied!' : 'CA:' + CA}</div>
+            <div className='flex md:flex-row sm:flex-col w-[75%] mx-auto justify-center items-center p-4 gap-x-4 bg-heading'>
+               <div ref={textRef} className="inter-heading font-bold sm:text-xs md:text-sm lg:text-lg">{copied ? 'Copied!' : 'CA:' + CA}</div>
                {!copied && <button className='w-6 rounded' onClick={handleCopyClick}>
                   <img src={copy} alt="copy" />
                </button>}
