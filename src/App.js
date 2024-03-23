@@ -63,29 +63,49 @@ function App() {
    return (
       <>
          {/* header */}
-         <div className='flex gap-x-8 w-full py-4 bg-heading items-center'>
+         <div className='flex gap-x-8 w-full bg-heading items-center py-6 my-auto'>
             <div className='marquee'>
-               <div className='marquee-content flex flex-row inter-heading font-bold w-full gap-x-6'>
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+               <div className='marquee-inner inter-heading font-bold'>
+                  <span className='flex flex-row gap-x-6'>
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                  </span>
+                  <span className='flex flex-row gap-x-6'>
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                  </span>
                </div>
             </div>
          </div>
@@ -208,29 +228,49 @@ function App() {
             </div>
          </div>
          {/* footer */}
-         <div className='flex gap-x-8 w-full py-4 bg-heading items-center'>
+         <div className='flex gap-x-8 w-full bg-heading items-center py-6 my-auto'>
             <div className='marquee'>
-               <div className='marquee-content flex flex-row inter-heading font-bold w-full gap-x-6'>
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
-                  <h4>NOBIKO COIN</h4>
-                  <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+               <div className='marquee-inner inter-heading font-bold'>
+                  <span className='flex flex-row gap-x-6'>
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                  </span>
+                  <span className='flex flex-row gap-x-6'>
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                     <h4>NOBIKO COIN</h4>
+                     <img className='w-8 h-8' src={logoRev} alt="logo reversed" />
+                  </span>
                </div>
             </div>
          </div>
