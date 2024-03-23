@@ -61,6 +61,16 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
+.carousel .thumb img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.carousel .slide img {
+  height: auto;  /* change this to whatever you want */
+  max-width: 500px;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;

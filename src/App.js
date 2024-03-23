@@ -4,10 +4,6 @@ import './App.css';
 import logo from './assets/images/logo-cat.png';
 import copy from './assets/images/copy.png';
 import logoRev from './assets/images/logo-cat-rev.png';
-import scroll1 from './assets/images/scroll1.png';
-import scroll2 from './assets/images/scroll2.png';
-import scroll3 from './assets/images/scroll3.png';
-import scroll4 from './assets/images/scroll4.png';
 import { useRef, useState } from 'react';
 import sq1 from './assets/images/docs/square_0007_2.png';
 import sq2 from './assets/images/docs/square_0006_5.png';
@@ -33,6 +29,8 @@ import pr7 from './assets/images/docs/potrait_0002_11.png';
 import pr8 from './assets/images/docs/potrait_0001_19.png';
 import welcome from './assets/videos/welcome.mp4';
 import tokenomics from './assets/videos/tokenomics.mp4';
+// import Carousel from './Carousel';
+import CarouselPage from './ResponsiveCarousel';
 
 function App() {
    const textRef = useRef(null);
@@ -130,13 +128,9 @@ function App() {
             </div>         
          </div>
          {/* slideshow */}
-         <div className='flex flex-row w-full bg-primary py-4 slideshow-container'>
-            <img src={scroll1} alt="Gambar 1" />
-            <img src={scroll2} alt="Gambar 2" />
-            <img src={scroll3} alt="Gambar 3" />
-            <img src={scroll4} alt="Gambar 4" />
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+         <div className='flex flex-row w-full bg-primary py-4'>
+            {/* <Carousel /> */}
+            <CarouselPage />
          </div>
          {/* copy tag */}
          <div className='flex bg-secondary items-center justify-center py-8'>
