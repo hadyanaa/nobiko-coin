@@ -41,6 +41,7 @@ body {
   width: 200%;
   position: absolute;
   animation: marquee 10s linear infinite;
+  overflow: hidden;
 }
 
 span {
