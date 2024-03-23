@@ -155,7 +155,7 @@ function App() {
          {/* copy tag */}
          <div className='flex bg-secondary items-center justify-center py-8'>
             <div className='flex md:flex-row xs:flex-col w-[75%] mx-auto justify-center items-center p-4 gap-x-4 bg-heading'>
-               <div ref={textRef} className="inter-heading font-bold xs:font-light xs:text-xs md:text-sm lg:text-lg">{copied ? 'Copied!' : 'CA:' + CA}</div>
+               <div ref={textRef} className="inter-heading xs:w-full xs:truncate xs:overflow-hidden font-bold xs:font-light xs:text-xs md:text-sm lg:text-lg">{copied ? 'Copied!' : 'CA:' + CA}</div>
                {!copied && <button className='w-6 rounded' onClick={handleCopyClick}>
                   <img src={copy} alt="copy" />
                </button>}

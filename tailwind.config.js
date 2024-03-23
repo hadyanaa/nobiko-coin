@@ -12,7 +12,7 @@ module.exports = {
         button: '#0094FF',
       },
       screens: {
-        'xs': '300px', // Ukuran layar kecil (Mobile)
+        'xs': '200px', // Ukuran layar kecil (Mobile)
         'sm': '640px', // Ukuran layar kecil (Mobile)
         'md': '768px', // Ukuran layar menengah (Tablet)
         'lg': '1024px', // Ukuran layar besar (Laptop)
