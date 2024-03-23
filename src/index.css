@@ -145,3 +145,17 @@ img {vertical-align: middle;}
   color: #fff;
   cursor: pointer;
 }
+
+.btn-community {
+  background-color: #45A1D6;
+  border: none;
+  color: black;
+  text-align: center;
+  transition: 0.3s;
+  padding: 16px 16px;
+}
+
+.btn-community:hover {
+  background-color: #C6E3FF;
+  cursor: pointer;
+}

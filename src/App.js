@@ -186,12 +186,12 @@ function App() {
                If you love cats and clothes, you should join the NOBIKO COIN Community! It is a group where you can share your cat fashion with other cat lovers. You can post pictures, get tips, and find patterns. You can also join events, contests, and giveaways. The NOBIKO COIN Community is a family of cat lovers who have fun and learn from each other. Join the NOBIKO COIN Community today and unleash your cat’s inner style!
                </p>
                <div className='w-full bg-heading'>
-                  <div className='flex flex-row text-xl font-bold gap-x-8 items-center justify-center py-12 inter-heading'>
-                     <h3>TELEGRAM</h3>
-                     <h3>TWITTER X</h3>
-                     <h3>SOLCAN</h3>
-                     <h3>DEXSCREEN</h3>
-                     <h3>RAYDIUM</h3>
+                  <div className='flex flex-row text-lg font-semibold items-center justify-center inter-heading'>
+                     <h3 className='btn-community'>TELEGRAM</h3>
+                     <h3 className='btn-community'>TWITTER X</h3>
+                     <h3 className='btn-community'>SOLCAN</h3>
+                     <h3 className='btn-community'>DEXSCREEN</h3>
+                     <h3 className='btn-community'>RAYDIUM</h3>
                   </div>
                </div>
             </div>
