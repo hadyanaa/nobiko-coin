@@ -8,6 +8,7 @@ body {
   font-family: 'Inter', sans-serif, 'Just Another Hand', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 .just-another {
@@ -33,6 +34,7 @@ body {
   overflow: hidden;
   background: white;
   white-space: nowrap;
+  width: 100%;
 }
 
 .marquee-inner {

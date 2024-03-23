@@ -63,7 +63,7 @@ function App() {
    return (
       <>
          {/* header */}
-         <div className='flex gap-x-8 w-full bg-heading items-center py-6 my-auto'>
+         <div className='flex gap-x-8 bg-heading items-center py-6 my-auto'>
             <div className='marquee'>
                <div className='marquee-inner inter-heading font-bold'>
                   <span className='flex flex-row gap-x-6 sm:text-xs md:text-sm lg:text-base xl:text-lg'>
@@ -186,7 +186,7 @@ function App() {
                If you love cats and clothes, you should join the NOBIKO COIN Community! It is a group where you can share your cat fashion with other cat lovers. You can post pictures, get tips, and find patterns. You can also join events, contests, and giveaways. The NOBIKO COIN Community is a family of cat lovers who have fun and learn from each other. Join the NOBIKO COIN Community today and unleash your cat’s inner style!
                </p>
                <div className='w-full bg-heading'>
-                  <div className='flex sm:flex-row xs:flex-col xs:text-xs md:text-base lg:text-lg xl:text-xl font-semibold xs:font-light md:font-normal items-center justify-center inter-heading'>
+                  <div className='flex md:flex-row xs:flex-col xs:text-sm md:text-base lg:text-lg xl:text-xl font-semibold xs:font-normal items-center justify-center inter-heading'>
                      <h3 className='btn-community'>TELEGRAM</h3>
                      <h3 className='btn-community'>TWITTER X</h3>
                      <h3 className='btn-community'>SOLCAN</h3>
